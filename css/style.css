@@ -7,6 +7,5 @@
 }
 @media (max-width:767px){
     .hide-in-mobile { display:none;  }
+    .divblock { float:none; width:100%; }
 }
-
-
