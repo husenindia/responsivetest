@@ -1,0 +1,12 @@
+﻿.divblock { background:#FF0000; border:1px solid #000; box-sizing:border-box; width:33.33%; float:left; height:300px; }
+.clearfix { clear:both; }
+.hide-in-mobile {
+    height: 300px;
+    width: 100%;
+    background: blue;
+}
+@media (max-width:767px){
+    .hide-in-mobile { display:none;  }
+}
+
+
